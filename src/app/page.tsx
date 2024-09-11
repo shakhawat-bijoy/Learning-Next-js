@@ -6,11 +6,13 @@ export default function Home(){
         <>
             <h1>Hello World</h1>
             
-            <Link href="/blog">Blog</Link>
+            <Link href="/blog" className="py-5 bg-black">Blog</Link>
             <br />
             <Link href="/products">Products</Link>
             <br />
             <Link href="/register">Register</Link>
+            <br />
+            <Link href="/dashboard">Dashboard</Link>
         </>
     )
 }
